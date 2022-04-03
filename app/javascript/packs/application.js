@@ -18,8 +18,6 @@ const images = require.context("../images", true);
 
 require('parsleyjs');
 require('fabric');
-require('jquery.blockUI.min.js')
-import 'bootstrap-datepicker';
 import "../stylesheets/application";
 import "select2";
 import "select2/dist/css/select2.css";

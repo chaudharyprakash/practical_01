@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@rails/webpacker": "5.4.3",
+    "webpack": "^4.46.0",
+    "bootstrap": "4.6.0",
+    "bootstrap-datepicker": "^1.9.0",
+    "fabric": "^4.6.0",
+    "jquery": "^3.6.0",
+    "@rails/ujs": "^6.0.0",
+    "jquery-ui": "^1.12.1",
+    "moment": "^2.29.1",
+    "parsleyjs": "^2.9.2",
+    "popper.js": "^1.16.1",
+    "select2": "^4.1.0-rc.0",
+    "turbolinks": "^5.2.0",
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@nathanvda/cocoon": "^1.2.14",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3"
+  }
+}
