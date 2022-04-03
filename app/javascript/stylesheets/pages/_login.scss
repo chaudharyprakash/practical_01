@@ -1,0 +1,91 @@
+.admin-login .content .admin-login-inner .inquiry-form .form-group .form-control.hasValue~label,
+.admin-login .content .admin-login-inner .inquiry-form .form-group .form-control:focus~label {
+  padding-top: 5px;
+  font-size: 14px;
+  top: 0
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-control {
+  padding-top: 25px !important;
+  background-color: #fff !important;
+  border-color: #d2d6de !important;
+  height: calc(2.45rem + 10px);
+  padding: 5 5;
+}
+
+.forgot-pwd {
+  right: 10px;
+  top: 21%;
+}
+
+.admin-login .content .admin-login-inner a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .admin-login .content .admin-login-inner .inquiry-form .form-control {
+      height: calc(2.95rem + 10px);
+  }
+}
+
+@media (max-width: 575px) {
+  .admin-login .content .admin-login-inner .inquiry-form .form-group label {
+      left: 16px;
+  }
+}
+
+.main-footer {
+  opacity: 0.9;
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-group {
+  position: relative;
+  margin-bottom: 30px
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-group label {
+  font-size: 18px;
+  color: #C3C8CD !important;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  -o-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-group .field_with_errors label.message {
+  left: 0 !important
+}
+
+@media (max-width:767px) {
+  .admin-login .content .admin-login-inner .inquiry-form .form-group label {
+      font-size: 16px;
+      top: 15px
+  }
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-group .form-control.hasValue~.input-highlight,
+.admin-login .content .admin-login-inner .inquiry-form .form-group .form-control:focus~.input-highlight {
+  width: 100%
+}
+
+@media (max-width:767px) {
+  .admin-login {
+      min-height: auto
+  }
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-control {
+  color: #444
+}
+
+.admin-login .content .admin-login-inner .inquiry-form .form-control:focus {
+  border: 2px solid #00a3e0 !important;
+}
+
+@media (max-width:767px) {
+  .admin-login .content .admin-login-inner .forgot-password {
+      font-size: 15px
+  }
+}

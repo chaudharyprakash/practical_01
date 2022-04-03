@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="419.963" height="384.664" viewBox="0 0 419.963 384.664">
+  <g id="Group_12192" data-name="Group 12192" transform="translate(-463.337 -1228.336)">
+    <g id="Group_11387" data-name="Group 11387" transform="translate(458 1555)">
+      <text id="Amex" transform="translate(36 11)" fill="#232323" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Amex</tspan></text>
+      <text id="Cash" transform="translate(287.317 11)" fill="#232323" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Cash</tspan></text>
+      <text id="_80.50" data-name="$80.50" transform="translate(147.367 11)" fill="#232323" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">$80.50</tspan></text>
+      <text id="_74.41" data-name="$74.41" transform="translate(389.3 11)" fill="#232323" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">$74.41</tspan></text>
+      <text id="Master_Card" data-name="Master Card" transform="translate(35 34)" fill="#232323" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Master Card</tspan></text>
+      <text id="Uber_Eats" data-name="Uber Eats" transform="translate(288.792 34)" fill="#232323" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Uber Eats</tspan></text>
+      <text id="_52.50" data-name="$52.50" transform="translate(146.134 34)" fill="#232323" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">$52.50</tspan></text>
+      <text id="_55.89" data-name="$55.89" transform="translate(388.3 34)" fill="#232323" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">$55.89</tspan></text>
+      <text id="Visa" transform="translate(35 55)" fill="#232323" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Visa</tspan></text>
+      <text id="_50.23" data-name="$50.23" transform="translate(146.134 55)" fill="#232323" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">$50.23</tspan></text>
+      <circle id="Ellipse_542" data-name="Ellipse 542" cx="6" cy="6" r="6" transform="translate(14 1)" fill="#00a3e0"/>
+      <circle id="Ellipse_570" data-name="Ellipse 570" cx="6" cy="6" r="6" transform="translate(260.439 1)" fill="#ffcd69"/>
+      <circle id="Ellipse_558" data-name="Ellipse 558" cx="6" cy="6" r="6" transform="translate(13 24)" fill="#25d7a9"/>
+      <circle id="Ellipse_569" data-name="Ellipse 569" cx="6" cy="6" r="6" transform="translate(259.283 24)" fill="#ff5c7a"/>
+      <circle id="Ellipse_567" data-name="Ellipse 567" cx="6" cy="6" r="6" transform="translate(13 45)" fill="#a866f2"/>
+    </g>
+    <g id="Group_2389" data-name="Group 2389" transform="translate(681.631 1572.662) rotate(-150)">
+      <g id="Ellipse_565" data-name="Ellipse 565" transform="translate(0 0)" fill="none" stroke="#ff5c7a" stroke-width="65" stroke-dasharray="420 0">
+        <circle cx="126.032" cy="126.032" r="126.032" stroke="none"/>
+        <circle cx="126.032" cy="126.032" r="93.532" fill="none"/>
+      </g>
+      <g id="Ellipse_564" data-name="Ellipse 564" transform="translate(0 0)" fill="none" stroke="#ffcd69" stroke-width="65" stroke-dasharray="339 120">
+        <circle cx="126.032" cy="126.032" r="126.032" stroke="none"/>
+        <circle cx="126.032" cy="126.032" r="93.532" fill="none"/>
+      </g>
+      <g id="Ellipse_563" data-name="Ellipse 563" transform="translate(0 0)" fill="none" stroke="#a866f2" stroke-width="65" stroke-dasharray="340 350">
+        <circle cx="126.032" cy="126.032" r="126.032" stroke="none"/>
+        <circle cx="126.032" cy="126.032" r="93.532" fill="none"/>
+      </g>
+      <g id="Ellipse_562" data-name="Ellipse 562" transform="translate(0 0)" fill="none" stroke="#00a3e0" stroke-width="65" stroke-dasharray="350 550">
+        <circle cx="126.032" cy="126.032" r="126.032" stroke="none"/>
+        <circle cx="126.032" cy="126.032" r="93.532" fill="none"/>
+      </g>
+      <g id="Ellipse_566" data-name="Ellipse 566" transform="translate(0 0)" fill="none" stroke="#25d7a9" stroke-width="65" stroke-dasharray="90 790">
+        <circle cx="126.032" cy="126.032" r="126.032" stroke="none"/>
+        <circle cx="126.032" cy="126.032" r="93.532" fill="none"/>
+      </g>
+      <text id="_80.50-2" data-name="$80.50" transform="matrix(-1, 0.017, -0.017, -1, 234.939, 124.741)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">$80.50</tspan></text>
+      <text id="_52.50-2" data-name="$52.50" transform="translate(158.545 20.558) rotate(107)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">$52.50</tspan></text>
+      <text id="_50.23-2" data-name="$50.23" transform="translate(80.844 26.305) rotate(69)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">$50.23</tspan></text>
+      <text id="_74.41-2" data-name="$74.41" transform="translate(54.797 126.697) rotate(-172)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">$74.41</tspan></text>
+      <text id="_55.89-2" data-name="$55.89" transform="translate(119.305 198.278) rotate(93)" fill="#fff" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">$55.89</tspan></text>
+    </g>
+  </g>
+</svg>

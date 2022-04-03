@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.471" height="26.471" viewBox="0 0 26.471 26.471">
+  <g id="question" transform="translate(0.25 0.25)">
+    <g id="Group_70" data-name="Group 70" transform="translate(11.687 18.18)">
+      <g id="Group_69" data-name="Group 69">
+        <rect id="Rectangle_34" data-name="Rectangle 34" width="2.597" height="2.597" fill="#71767b" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_72" data-name="Group 72">
+      <g id="Group_71" data-name="Group 71">
+        <path id="Path_62" data-name="Path 62" d="M12.986,0A12.986,12.986,0,1,0,25.971,12.986,12.986,12.986,0,0,0,12.986,0Zm0,23.621A10.635,10.635,0,1,1,23.621,12.986,10.635,10.635,0,0,1,12.986,23.621Z" fill="#71767b" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+    <g id="Group_74" data-name="Group 74" transform="translate(7.791 5.169)">
+      <g id="Group_73" data-name="Group 73">
+        <path id="Path_63" data-name="Path 63" d="M138.245,88.9A5.194,5.194,0,0,0,128,90.137h2.6a2.607,2.607,0,0,1,5.194.441,2.7,2.7,0,0,1-2.74,2.156,1.156,1.156,0,0,0-1.156,1.156h0v2.74h2.6V95.15A5.194,5.194,0,0,0,138.245,88.9Z" transform="translate(-127.999 -84.918)" fill="#71767b" stroke="#fff" stroke-width="0.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

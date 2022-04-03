@@ -1,0 +1,65 @@
+.admin-box {
+  .account-setup {
+    display: inline-flex;
+    flex-direction: column;
+
+    a {
+      font-size: 20px;
+      color: #007aff;
+      margin-bottom: 20px;
+
+      @media (max-width:1440px) {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+
+      @media (max-width:991px) {
+        font-size: 16px;
+      }
+
+      @media (max-width:767px) {
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      span {
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+.admin-table {
+  .table {
+    .thead-dark-with-bordered {
+      th {
+        font-size: 14px;
+        border: #e4e4e4 1px solid;
+        background-color: #f8f8f8;
+        color: #232323;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+    }
+
+
+    &.table-with-bordered {
+      tbody {
+        tr {
+          th,
+          td {
+            font-size: 14px;
+
+            border: #e4e4e4 1px solid;
+          }
+        }
+      }
+    }
+  }
+}

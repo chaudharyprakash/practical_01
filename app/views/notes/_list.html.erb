@@ -1,0 +1,47 @@
+<% if @tags.present? %>
+  <% @tags.each do |tag| %>
+    <tr class="text-black"><td><b><u><%= tag.name.titleize %></u>(<%= tag.notes.count%>)</b></td></tr>
+    <% tag.notes.where(id: current_user.related_notes_ids).each do |note|%>
+      <% applicable_actions = note.applicable_actions(current_user.id)%>
+      <tr>
+        <td><%= note.title %></td>
+        <td><%= note.description %></td>
+        <td><%= raw tags_data(note) %></td>
+        <td class="action-icons">
+          <div class="action-area">
+            <%= link_to(image_pack_tag("home/ic_edit.svg"), edit_note_path(note)) if applicable_actions.include?(:editable) %>
+            <%= link_to(image_pack_tag("home/ic_delete.svg"), note_path(note), class: 'mb-1', title: 'Delete', method: :delete, data: {confirm: 'Are you sure, you want to delete this note?'}) if applicable_actions.include?(:deletable)  %>
+            <%= link_to image_pack_tag("home/pr.png"), "#", data: {toggle: "modal", target: "#notemodal_#{note.id}"}, title: 'Permission' if note.user_id.eql?(current_user.id) %>
+          </div>
+        </td>
+      </tr>
+      <%= render 'assign_permission', note: note if note.user_id.eql?(current_user.id)%>
+    <% end %>
+  <% end %>
+<% else %>
+  <tr>
+    <td colspan="3" class="text-center">No records found</td>
+  </tr>
+<% end %>
+<script type="text/javascript">
+  $(document).on('change', '.note', function(){
+    userID = ($(this).data('user-id') || $(this).val())
+    noteID = $(this).data('note-id')
+      currentID = "#"+$(this).data('id')
+      viewable_val = $("#view_"+userID).is(':checked')
+      editable_val = $("#edit_"+userID).is(':checked')
+      deletable_val = $("#delete_"+userID).is(':checked')
+      debugger
+    $.ajax({
+      url: '/notes/'+noteID+'/note_permissions',
+      type: "PUT",
+      data: { 
+              user_id: userID, 
+              note_id: noteID,
+              viewable: viewable_val,
+              editable: editable_val,
+              deletable: deletable_val
+            }
+    })
+  })
+</script>

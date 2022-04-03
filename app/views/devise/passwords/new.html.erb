@@ -1,0 +1,31 @@
+<section class="content-wrapper admin-login ml-0">
+  <div class="content">
+    <div class="admin-login-inner mx-auto">
+      <div class="box p-4">
+        <% flash.each do |key, value| %>
+          <% if key == "alert" %>
+            <div class="alert-message-top">
+              <div class="alert alert-<%= key %>" id="login_flashMessage"> <%= value %></div>
+            </div>
+          <% end %>
+        <% end %>
+        <h2 class="admin-title-small text-darkgray1 mb-3">Forgot your password?</h2>
+        <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: {class: 'inquiry-form', method: :post}) do |f| %>
+          <div class="form-group mb-0 relative">
+            <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control input100", required: true,
+              data: { parsley_type: "email", parsley_type_message: "Please enter valid Email Address", parsley_required_message: "Email Address can't be blank", parsley_trigger: "keyup" }
+            %>
+            <label>Email Address</label>
+          </div>
+          <%= f.submit "Send me reset password instructions", class: 'btn btn-admin password-btn w-100 mb-4 mt-3' %>
+          <div class="text-center">
+            <%= link_to root_path, class: "text-decoration-none text-blue1" do %>
+              <i class="fa fa-arrow-left"></i>
+              <div class="inline">Back to Login</div>
+            <% end %>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.389" height="14.489" viewBox="0 0 14.389 14.489">
+  <g id="g2165" transform="translate(0.101 0.1)">
+    <g id="rect1147" transform="translate(0 9.527)">
+      <path id="Path_3907" data-name="Path 3907" d="M13.676,472.436H.488a.516.516,0,0,1-.5-.529v-3.878a.355.355,0,0,1,.709,0v3.7H13.466v-3.7a.355.355,0,0,1,.355-.355h0a.355.355,0,0,1,.355.355v3.878a.516.516,0,0,1-.5.529Z" transform="translate(0.011 -467.674)" stroke="#232323" stroke-width="0.2"/>
+    </g>
+    <g id="g1663" transform="translate(3.408)">
+      <g id="path1149" transform="translate(3.33)">
+        <path id="Path_3908" data-name="Path 3908" d="M332.855,9.842a.355.355,0,0,1-.355-.355V-2.065a.355.355,0,0,1,.355-.355.355.355,0,0,1,.355.355V9.488a.355.355,0,0,1-.355.354Z" transform="translate(-332.5 2.42)" stroke="#232323" stroke-width="0.2"/>
+      </g>
+      <g id="path1151" transform="translate(0 8.15)">
+        <path id="Path_3909" data-name="Path 3909" d="M171.845,403.874a.354.354,0,0,1-.253-.107l-3.331-3.4a.356.356,0,1,1,.507-.5l3.33,3.4a.355.355,0,0,1-.253.6Z" transform="translate(-168.16 -399.762)" stroke="#232323" stroke-width="0.2"/>
+      </g>
+      <g id="path1153" transform="translate(3.33 8.15)">
+        <path id="Path_3910" data-name="Path 3910" d="M332.855,403.875a.355.355,0,0,1-.253-.6l3.331-3.4a.356.356,0,0,1,.507.5l-3.33,3.4a.354.354,0,0,1-.255.1Z" transform="translate(-332.5 -399.763)" stroke="#232323" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<% note_permission = NotePermission.find_by_user_id(user_id) %>
+  <div class="checkbox-area custom-control custom-checkbox admin-border pb-2 mb-3">
+    <%= check_box_tag "view_#{user_id}", 'yes', false, class: "custom-control-input viewable note", data: {note_id: note_id, user_id: user_id, check_name: 'viewable', id: "view_#{user_id}"}, checked: note_permission&.viewable? ? true : false %>
+    <label class="custom-control-label col-md-3 mr-3" for="view_<%=user_id%>">View</label>
+  </div>
+  <div class="checkbox-area custom-control custom-checkbox admin-border pb-2 mb-3">
+    <%= check_box_tag "edit_#{user_id}", 'yes', false, class: "custom-control-input editable note", data: {note_id: note_id, user_id: user_id, check_name: 'editable', id: "edit_#{user_id}"}, checked: note_permission&.editable? ? true : false %>
+    <label class="custom-control-label  col-md-3 mr-3" for="edit_<%=user_id%>">Edit</label>
+  </div>
+  <div class="checkbox-area custom-control custom-checkbox admin-border pb-2 mb-3">
+    <%= check_box_tag "delete_#{user_id}", 'yes', false, class: "custom-control-input deletable note", data: {note_id: note_id, user_id: user_id, check_name: 'deletable', id: "delete_#{user_id}"}, checked: note_permission&.deletable? ? true : false %>
+    <label class="custom-control-label col-md-3 mr-3" for="delete_<%=user_id%>">Delete</label>
+  </div>

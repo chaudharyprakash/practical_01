@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RikoouuPra</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%#= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body class="sidebar-mini admin-wrapper sidebar-collapse">
+    <%= image_pack_tag 'basic_logos/loader.gif', id: 'loaderImage', style: 'display: none;' %>
+    <div class="sidenav-overlay"></div>
+    <div class="wrapper">
+      <%= render partial: 'layouts/header' %>
+      <%= yield %>
+    </div>
+  </body>
+</html>

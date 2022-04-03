@@ -1,0 +1,54 @@
+.inquiry-form {
+	.form-group {
+		margin-bottom: 30px;
+	}
+
+	.form-control {
+		background-color: transparent;
+		font-size: 14px;
+		color: #232323;
+		height: calc(2.867rem + 2px);
+		padding: .375rem 1.0rem;
+		border: #B3BCC5 1px solid;
+		border-radius: 0;
+
+		&:focus {
+			background-color: transparent;
+			color: #232323;
+			box-shadow: none;
+			outline: none;
+		}
+	}
+
+	textarea.form-control {
+		height: 130px;
+	}
+}
+
+
+
+.login-form {
+	.form-group {
+		margin-bottom: 30px;
+	}
+
+	.form-control {
+		background-color: transparent;
+		font-size: 14px;
+		color: #232323;
+		height: calc(3.25rem + 2px);
+		padding: .475rem 1.5rem;
+		border: #B3BCC5 1px solid;
+
+		&:focus {
+			background-color: transparent;
+			color: #232323;
+			box-shadow: none;
+			outline: none;
+		}
+	}
+
+	textarea.form-control {
+		height: 130px;
+	}
+}

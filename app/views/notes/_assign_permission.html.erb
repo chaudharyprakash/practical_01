@@ -1,0 +1,19 @@
+<div class="modal fade category_model_<%= note.id %>" id="notemodal_<%= note.id %>" tabindex="-1" role="dialog" aria-labelledby="modifiermodalLabel" aria-modal="true" >
+  <div class="modal-dialog modal-dialog-centered modal-sm-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header d-block p-0 inquiry-form">
+        <div class="d-flex align-items-center p-3">
+          <button type="button" class="" data-dismiss="modal" aria-label="Close">
+            <%= image_pack_tag 'basic_logos/close.svg', class: 'img-fluid',  width: '45' %>
+          </button>
+          <div class="text-center w-100">
+            <h5 class="modal-title fs-20 fw-500 text-center" id="myModalLabel2">Assign Note to User</h5>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body assign-item-category pt-0" id="item-list">
+        <%= render 'assign_note_form', users: User.all, note: note %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,109 @@
+.btn {
+	font-family: SF Pro Text;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0 12px;
+	border: 1px solid transparent;
+	min-width: 170px;
+	border-radius: 0;
+	height: 45px;
+	line-height: 45px;
+	@media (max-width: 767px) {
+		padding: 0rem 0rem;
+	}
+}
+
+.btn-blue {
+	background-color: #00A3E0;
+	color: #fff;
+	border-color: #00A3E0;
+
+	&:hover {
+		background-color: #00A3E0;
+		color: #fff;
+		border-color: #00A3E0;
+	}
+}
+
+
+.btn-blue-outline {
+	background-color: #E6F0FF;
+	color: #00A3E0;
+	
+
+	&:hover {
+		background-color: #E6F0FF;
+		color: #00A3E0;
+	
+	}
+}
+.btn-gray {
+	background-color: #E9EAEB;
+	color: #00A3E0;
+	border-color: #E9EAEB;
+
+	&:hover {
+		background-color: #E9EAEB;
+		color: #00A3E0;
+		border-color: #E9EAEB;
+	}
+}
+
+.btn-tranparent {
+	background-color: #33C162;
+	color: #fff;
+	padding: 0.80rem 1.8rem;
+	&:hover {
+		background-color: #33C162;
+	color: #fff;
+	}
+}
+.btn-white {
+	background-color: #fff;
+	color: #00B23B;
+	padding: 0.80rem 1.8rem;
+	&:hover {
+		background-color: #fff;
+	color: #00B23B;
+	}
+	
+
+	
+}
+
+.btn-yellow {
+	background: #fbbe36;
+	border-color: #fbbe36;
+	color: #fff;
+	&:hover {
+		background: #cf9312;
+		border-color: #cf9312;
+		color: #fff;
+	}
+}
+
+.btn-submit {
+	background-color: #0372cb;
+	background: linear-gradient(#3f9fea, #0372cb);
+	color: #fefffe;
+	border: #0077cc 1px solid;
+	padding: 0.3rem 1rem;
+	border: none;
+
+	&:hover {
+		background-color: #147bcd;
+		background: linear-gradient(#51a9ee, #147bcd);
+		color: #fefffe;
+		border-color: #1482d0;
+		text-decoration: none;
+	}
+}
+
+
+.link-btn {
+	font-size: 21px;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

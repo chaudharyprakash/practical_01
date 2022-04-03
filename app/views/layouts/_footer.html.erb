@@ -1,0 +1,13 @@
+<% if current_user.present? %>
+  <footer class="main-footer fixed">
+    <div class="d-lg-flex align-items-center justify-content-between">
+      <div class="foot-nav d-flex flex-column flex-md-row">
+        <%= link_to 'Terms', "javascript:", class: 'mb-1 mb-md-0' %>
+        <%= link_to 'Privacy Policy', "javascript:", class: 'mb-1 mb-md-0' %>
+        <!--  <a href="javascript:;" class="mb-1 mb-md-0">Product Suggestions</a> -->
+      </div>
+      <p class="copy-text text-darkgray1 mt-3 mt-lg-0">&copy;Note <span class="footer_date"></span> All rights reserved.
+      </p>
+    </div>
+  </footer>
+<% end %>

@@ -1,0 +1,16 @@
+<div class="modal-scrollable">
+  <% if users.present? %>
+    <%= collection_check_boxes :note_ids, {}, users, :id, :email do |item| %>
+      <div data-filter-item data-filter-name='<%= item.object.email.downcase %>' class="border-bottom py-3 checkbox-area custom-control custom-checkbox m-1" id="category_checkboxes_<%= note.id %>">
+        <% note_permissions = note.note_permissions %>
+        <%= item.check_box(class: "custom-control-input select_check manual note note_#{note.id}", 'data-value': item.value, id: "note_#{note.id}_item_#{item.object.id}", data: {check_class: '.note', note_id: "#{note.id}"}, checked: note_permissions.pluck(:user_id).include?(item.object.id)) %>
+        <%= item.label(class: "custom-control-label fw-500 label_note_#{note.id}", style: "font-weight: 500; color: #111;", 'data-value': item.value, for: "note_#{note.id}_item_#{item.object.id}") %>
+      </div>
+      <div class="row col-lg-12">
+        <%= render 'permission_checkbox', note_id: note.id, user_id: item.object.id %>
+      </div>
+    <% end %>
+  <% else %>
+    <div class="text-center mt-4">No Record found.</div>
+  <% end %>
+</div>

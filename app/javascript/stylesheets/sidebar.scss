@@ -1,0 +1,164 @@
+/*----------------toggeled sidebar----------------*/
+/*----------------show sidebar button----------------*/
+/*----------------sidebar-content----------------*/
+/*----------------------sidebar-menu-------------------------*/
+.page-wrapper {
+	.sidebar-wrapper {
+		-webkit-transition: all 0.3s ease;
+		-moz-transition: all 0.3s ease;
+		-ms-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+	}
+}
+
+.sidebar-wrapper {
+
+	.sidebar-menu {
+		.sidebar-dropdown {
+			.sidebar-submenu {
+				li {
+					a {
+						&:before {
+							-webkit-transition: all 0.3s ease;
+							-moz-transition: all 0.3s ease;
+							-ms-transition: all 0.3s ease;
+							-o-transition: all 0.3s ease;
+							transition: all 0.3s ease;
+						}
+					}
+
+					padding-left: 25px;
+					font-size: 13px;
+				}
+
+				ul {
+					padding: 5px 0;
+				}
+			}
+
+			>a {
+				&:after {
+					font-family: "Font Awesome 5 Free";
+					font-weight: 900;
+					content: "\f105";
+					font-style: normal;
+					display: inline-block;
+					font-style: normal;
+					font-variant: normal;
+					text-rendering: auto;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					text-align: center;
+					background: 0 0;
+					position: absolute;
+					right: 15px;
+					top: 11px;
+				}
+			}
+		}
+
+		ul {
+			li {
+				a {
+					-webkit-transition: all 0.3s ease;
+					-moz-transition: all 0.3s ease;
+					-ms-transition: all 0.3s ease;
+					-o-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+					display: inline-block;
+					width: 100%;
+					text-decoration: none;
+					position: relative;
+					padding: 11px 30px 11px 35px;
+					color: #1a1a1a !important;
+					font-family: 'SF Pro Display';
+					font-size: 14px;
+					color: #111;
+					font-weight: 500;
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+				}
+			}
+		}
+
+		.sidebar-dropdown.active {
+			>a {
+				&:after {
+					transform: rotate(90deg);
+					right: 17px;
+				}
+			}
+		}
+	}
+
+	ul {
+		li {
+			a {
+				i {
+					-webkit-transition: all 0.3s ease;
+					-moz-transition: all 0.3s ease;
+					-ms-transition: all 0.3s ease;
+					-o-transition: all 0.3s ease;
+					transition: all 0.3s ease;
+				}
+			}
+		}
+	}
+
+	.sidebar-search {
+		input.search-menu {
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+
+		.input-group-text {
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+	}
+}
+
+.page-wrapper.toggled {
+	.sidebar-wrapper {
+		left: 0px;
+	}
+
+	#show-sidebar {
+		left: -40px;
+	}
+}
+
+#show-sidebar {
+	position: fixed;
+	left: 0;
+	top: 10px;
+	border-radius: 0 4px 4px 0px;
+	width: 35px;
+	transition-delay: 0.3s;
+}
+
+.sidebar-content {
+	max-height: calc(100% - 30px);
+	height: calc(100% - 30px);
+	overflow-y: auto;
+	position: relative;
+}
+
+.sidebar-content.desktop {
+	overflow-y: hidden;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #E6E8E9 !important;
+}

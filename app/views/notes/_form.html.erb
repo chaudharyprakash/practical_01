@@ -1,0 +1,46 @@
+<h2 class="admin-main-title text-darkgray1 fw-600 fs-18 border-bottom pb-2">Note</h2>
+<%= form_for(note, html: {"data-parsley-validate": '', class: 'inquiry-form'}) do |f| %>
+  <div class="">
+    <div class="row pl-0">
+      <div class="col-xl-9 col-lg-11">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group mb-3">
+              <label class="asterisk">Title</label>
+              <%= f.text_field :title, class: 'form-control', data: { parsley_required_message: 'Please enter Title', parsley_maxlength: "20", parsley_maxlength_message: "Title can contain maximum upto 20 characters" }, required: true %>
+              <%#= f.hidden_field :location_id, value: @current_location.id %>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group mb-3">
+              <label>Description</label>
+              <%= f.text_area :description, class: 'form-control', data: {parsley_maxlength: "10000", parsley_maxlength_message: "Description can contain maximum upto 10000 characters" } %>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-input  pr-3 pr-md-0 col-sm-5">
+            <div class="form-group down-arrow mb-2">
+              <%= f.select :tag_ids, options_for_select(Tag.pluck(:name, :id), selected: f.object.tag_ids), {},{ include_blank: "Select Category", class: 'form-control category-filter', multiple: :true, required: :true} %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="d-inline-flex flex-column flex-sm-row">
+          <%= f.submit form_button_text, class: 'btn btn-admin mr-sm-4 mb-3 mb-sm-0' %>
+          <%= link_to "Cancel" , notes_path , class: 'btn btn-gray' %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end%>
+<script type="text/javascript">
+  $("#note_tag_ids").select2({
+    tags: true
+  });
+</script>

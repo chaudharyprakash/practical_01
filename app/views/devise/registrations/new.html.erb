@@ -1,0 +1,31 @@
+<section class="content-wrapper admin-login ml-0">
+  <div class="content">
+    <div class="admin-login-inner mx-auto">
+      <div class="box p-4">
+        <h2 class="text-center">Sign up</h2>
+        <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+          <%= render "devise/shared/error_messages", resource: resource %>
+          <div class="form-group relative mb-0">
+            <%= f.label :email, 'Email Address' %><br />
+            <%= f.email_field :email, autofocus: true, autocomplete: "email", class: 'form-control','data-parsley-type': 'email', 'data-parsley-type-message': 'Please enter valid Email Address.', 'data-parsley-required': 'true', 'data-parsley-required-message': "Email Address can't be blank", 'data-parsley-trigger': 'keyup' %>
+          </div>
+          <div class="form-group relative mb-0">
+            <%= f.label :password %>
+            <% if @minimum_password_length %>
+            <em class="fs-12">(<%= @minimum_password_length %> characters minimum)</em>
+            <% end %><br />
+            <%= f.password_field :password, autocomplete: "new-password", class: 'form-control', 'data-parsley-required': 'true', 'data-parsley-required-message': "Password can't be blank", 'data-parsley-minlength':"6", 'data-parsley-trigger': 'keyup' %>
+          </div>
+          <div class="form-group relative mb-0">
+            <%= f.label :password_confirmation %><br />
+            <%= f.password_field :password_confirmation, autocomplete: "new-password", class: 'form-control', 'data-parsley-required': 'true', 'data-parsley-required-message': "Password can't be blank", 'data-parsley-minlength':"6", 'data-parsley-equalto': "#user_password",'data-parsley-trigger': 'keyup'%>
+          </div>
+          <div class="actions">
+            <%= f.submit "Sign up", class: 'btn btn-admin fs-20 w-100 mb-4 mt-3' %>
+          </div>
+        <% end %>
+        <%= link_to "Log in", new_session_path(resource_name) %><br />
+      </div>
+    </div>
+  </div>
+</section>

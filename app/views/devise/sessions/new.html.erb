@@ -1,0 +1,35 @@
+<% flash.each do |key, value| %>
+  <% next if key == "alert" and value == "You need to sign in or sign up before continuing." %>
+  <%= content_tag :div, class: "#{flash_class(key)} p-3 w-100 rounded alert alert-header-msg" do %>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+    </button>
+    <%= value %>
+  <% end %>
+<% end %>
+<section class="content-wrapper admin-login ml-0">
+  <div class="content">
+    <div class="admin-login-inner mx-auto">
+      <div class="box p-4">
+        <h2 class="text-center fs-18">Sign In</h2>
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: {class: 'inquiry-form'}) do |f| %>
+          <div class="form-group relative mb-0">
+            <%= f.email_field :email, autocomplete: "email", class: 'form-control input100', 'data-parsley-type': 'email', 'data-parsley-type-message': 'Please enter valid Email Address.', 'data-parsley-required': 'true', 'data-parsley-required-message': "Email Address can't be blank", 'data-parsley-trigger': 'keyup' %>
+            <label for="user_email mb-0">Email Address</label>
+          </div>
+          <div class="form-group mb-2 relative">
+            <%= f.password_field :password, autocomplete: "current-password", class: 'form-control input100', id: "password-field", 'data-parsley-required': 'true', 'data-parsley-required-message': "Password can't be blank", 'data-parsley-trigger': 'keyup' %>
+            <label for="password-field mb-0">Password</label>
+            <!--
+          <span toggle="#password-field" class="fa fa-eye-slash field-icon toggle-password"></span>
+          -->
+            <div class="position-absolute forgot-pwd">
+              <%= link_to 'Forgot Password?' , new_user_password_path, class: "forgot-password forgot-link-right text-blue1 fs-15 fw-600" %>
+            </div>
+          </div>
+          <%= f.submit "Sign In", class: 'btn btn-admin fs-20 w-100 mb-4 mt-3' %>
+        <% end %>
+        <%= link_to "Sign Up", new_user_registration_path, class: 'fs-14'%>
+      </div>
+    </div>
+  </div>
+</section>

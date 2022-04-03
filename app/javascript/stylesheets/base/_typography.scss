@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Light.eot');
+    src: url('../fonts/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Light.woff') format('woff'),
+        url('../fonts/SFProDisplay-Light.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Light.svg#SFProDisplay-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Regular.eot');
+    src: url('../fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Regular.woff') format('woff'),
+        url('../fonts/SFProDisplay-Regular.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Medium.eot');
+    src: url('../fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Medium.woff') format('woff'),
+        url('../fonts/SFProDisplay-Medium.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Medium.svg#SFProDisplay-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Semibold.eot');
+    src: url('../fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Semibold.woff') format('woff'),
+        url('../fonts/SFProDisplay-Semibold.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Semibold.svg#SFProDisplay-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Bold.eot');
+    src: url('../fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Bold.woff') format('woff'),
+        url('../fonts/SFProDisplay-Bold.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Bold.svg#SFProDisplay-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../fonts/SFProDisplay-Heavy.eot');
+    src: url('../fonts/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProDisplay-Heavy.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Heavy.woff') format('woff'),
+        url('../fonts/SFProDisplay-Heavy.ttf') format('truetype'),
+        url('../fonts/SFProDisplay-Heavy.svg#SFProDisplay-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Light.eot');
+    src: url('../fonts/SFProText-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Light.woff2') format('woff2'),
+        url('../fonts/SFProText-Light.woff') format('woff'),
+        url('../fonts/SFProText-Light.ttf') format('truetype'),
+        url('../fonts/SFProText-Light.svg#SFProText-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Regular.eot');
+    src: url('../fonts/SFProText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Regular.woff2') format('woff2'),
+        url('../fonts/SFProText-Regular.woff') format('woff'),
+        url('../fonts/SFProText-Regular.ttf') format('truetype'),
+        url('../fonts/SFProText-Regular.svg#SFProText-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Medium.eot');
+    src: url('../fonts/SFProText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Medium.woff2') format('woff2'),
+        url('../fonts/SFProText-Medium.woff') format('woff'),
+        url('../fonts/SFProText-Medium.ttf') format('truetype'),
+        url('../fonts/SFProText-Medium.svg#SFProText-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Semibold.eot');
+    src: url('../fonts/SFProText-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProText-Semibold.woff') format('woff'),
+        url('../fonts/SFProText-Semibold.ttf') format('truetype'),
+        url('../fonts/SFProText-Semibold.svg#SFProText-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Bold.eot');
+    src: url('../fonts/SFProText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Bold.woff2') format('woff2'),
+        url('../fonts/SFProText-Bold.woff') format('woff'),
+        url('../fonts/SFProText-Bold.ttf') format('truetype'),
+        url('../fonts/SFProText-Bold.svg#SFProText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFProText-Heavy.eot');
+    src: url('../fonts/SFProText-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SFProText-Heavy.woff2') format('woff2'),
+        url('../fonts/SFProText-Heavy.woff') format('woff'),
+        url('../fonts/SFProText-Heavy.ttf') format('truetype'),
+        url('../fonts/SFProText-Heavy.svg#SFProText-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.fs {
+    &-10{font-size:10px !important;}
+    &-12{font-size:12px !important;}
+    &-13{font-size:13px !important;}
+    &-14{font-size:14px !important;}
+    &-15{font-size:15px !important;}
+    &-16{font-size:16px !important;}
+    &-18{font-size:18px !important;}
+    &-20{font-size:20px !important;}
+    &-24{font-size:24px !important;}
+    &-30{font-size:30px !important;}
+
+    &-16 {font-size: 16px !important;;}
+    &-17 {font-size: 17px !important;;}
+    &-19 {
+        font-size: 19px !important;;
+    }
+
+    &-21 {
+        font-size: 21px !important;;
+    }
+
+    &-22 {
+        font-size: 22px !important;;
+    }
+    &-23 {
+        font-size: 23px !important;;
+    }
+    &-24 {
+        font-size: 24px !important;;
+    }
+    &-25 {
+        font-size: 25px !important;;
+    }
+    &-26 {
+        font-size: 26px !important;;
+    }
+    &-27 {
+        font-size: 27px !important;;
+    }
+    &-28 {
+        font-size: 28px !important;;
+    }
+    &-29 {
+        font-size: 29px !important;;
+    }
+    &-30 {
+        font-size: 30px !important;;
+    }
+    &-31 {
+        font-size: 31px !important;;
+    }
+    &-32 {
+        font-size: 32px !important;;
+    }
+    &-33 {
+        font-size: 33px !important;;
+    }
+    &-34 {
+        font-size: 34px !important;;
+    }
+    &-35 {
+        font-size: 35px !important;;
+    }
+    &-36 {
+        font-size: 36px !important;;
+    }
+    &-37 {
+        font-size: 37px !important;;
+    }
+    &-38 {
+        font-size: 38px !important;;
+    }
+    &-39 {
+        font-size: 39px !important;;
+    }
+    &-40 {
+        font-size: 40px !important;;
+    }
+    &-41 {
+        font-size: 41px !important;;
+    }
+    &-42 {
+        font-size: 42px !important;;
+    }
+    &-43 {
+        font-size: 43px !important;;
+    }
+    &-44 {
+        font-size: 44px !important;;
+    }
+    &-45 {
+        font-size: 45px !important;;
+    }
+    &-46 {
+        font-size: 46px !important;;
+    }
+    &-47 {
+        font-size: 47px !important;;
+    }
+    &-48 {
+        font-size: 48px !important;;
+    }
+    &-49 {
+        font-size: 49px !important;;
+    }
+    &-50 {
+        font-size: 50px !important;;
+    }&-51 {
+        font-size: 51px !important;;
+    }
+    &-52 {
+        font-size: 52px !important;;
+    }
+
+    &-53 {
+        font-size: 53px !important;;
+    }
+    &-54 {
+        font-size: 54px !important;;
+    }
+
+    &-55 {
+        font-size: 55px !important;;
+    }
+    &-56 {
+        font-size: 56px !important;;
+    }
+    &-57 {
+        font-size: 57px !important;;
+    }
+    &-58 {
+        font-size: 58px !important;;
+    }
+    &-59 {
+        font-size: 59px !important;;
+    }
+    &-60 {
+        font-size: 60px !important;;
+    }
+}
+
+
+.fw {
+    &-300 {
+        font-weight: 300 !important;;
+    }
+    &-400 {
+        font-weight: normal !important;;
+    }
+    &-500 {
+        font-weight: 500 !important;;
+    }
+    &-600 {
+        font-weight: 600 !important;;
+    }
+    &-700 {
+        font-weight: bold !important;;
+    }
+
+    &-900 {
+        font-weight: 900 !important;;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'SF Pro Display';  
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18px;
+}
+
+.fz {
+    &-64{font-size:4rem;}
+    &-58{font-size:3.625rem;}
+    &-48{font-size:3rem;}
+    &-36{font-size:2.25rem;}
+}

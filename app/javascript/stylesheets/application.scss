@@ -1,0 +1,31 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import "./abstract/mixins";
+@import "./abstract/variables";
+
+@import "./base/base";
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/typography";
+@import "./base/utilities";
+
+@import "./components/buttons";
+@import "./components/inputs";
+
+
+@import "./main.css";
+@import "./custom.css";
+
+@import "./sidebar.scss";
+@import "./pages/account_settings";
+@import "./pages/employee";
+@import "./pages/super_admin";
+@import "./multi-select.css";
+@import "./custom.css";
+@import "./pages/login";
+@import "./pages/sales_report";
+@import "./pages/online_ordering_settings";
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  width: auto;
+}
